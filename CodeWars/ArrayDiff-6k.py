@@ -1,4 +1,5 @@
 #Implement an difference function, which subtracts one list from another.
+def array_diff(a, b):   
     if b == []:
         return a
     else:
