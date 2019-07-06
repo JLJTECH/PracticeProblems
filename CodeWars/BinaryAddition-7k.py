@@ -11,3 +11,11 @@ def add_binary(a,b):
    
 
 add_binary(1,1)
+
+
+#Alternative Options (remove these before running)
+def add_binary(a,b):
+    return bin(a+b)[2:]
+
+def add_binary(a,b):
+    return '{0:b}'.format(a + b)
