@@ -3,6 +3,9 @@
 # Collapse the list
 ''.join(list) 
 
+#Scan list for longest string and print max item
+print(max(len(i) for i in string.split()))
+
 #Count occurrences of item in list
 [a,b,c,d,e].count(item) 
 
