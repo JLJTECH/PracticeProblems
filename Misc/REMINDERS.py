@@ -34,6 +34,8 @@ print(f"{x} {w}")
 #List comprehensions
 	#example CW solution used to reverse all words >= 5 letters and print out the modified sentence
 	[word[::-1] if len(word) >= 5 else word for word in words]
+	#Example CW solution to create a dictionary of letters and their frequency of occurrence in a string
+	{i : message.count(i) for i in set(message)} 
 
 #Collapse multiple inputs into one
 	#from this
