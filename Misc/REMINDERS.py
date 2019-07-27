@@ -41,3 +41,6 @@ print(f"{x} {w}")
 	#to this
 	def predict_age(*ages)
 
+#Remove char
+def remove_exclamation_marks(s):
+    return s.replace('!', '')
