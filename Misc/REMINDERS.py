@@ -46,3 +46,8 @@ print(f"{x} {w}")
 #Remove char
 def remove_exclamation_marks(s):
     return s.replace('!', '')
+
+#Quick Lambda implementation on multiple args - with f"string"
+def newvibe(a,b,c):
+	var1 = lambda x: (x * 5)
+	print(f"This is a: {var1(a)}, This is b: {var1(b)}, This is c: {var1(c)}")
