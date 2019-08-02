@@ -6,6 +6,10 @@
 #Scan list for longest string and print max item
 print(max(len(i) for i in string.split()))
 
+#Dont forget min and max
+max(x) for largest
+min(x) for smallest
+
 #Count occurrences of item in list
 [a,b,c,d,e].count(item) 
 
