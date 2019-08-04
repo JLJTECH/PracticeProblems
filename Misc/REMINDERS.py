@@ -1,7 +1,12 @@
 #Python reminders
 
 # Collapse the list
-''.join(list) 
+''.join(list)
+
+#Exammple for checking list for single digit (string)
+def checker(string):
+	print("Boom!" if "7" in str(string) else "there is no 7 in the list")
+checker([2, 55, 60, 97, 86, 3, 4, 6, 6])
 
 #Scan list for longest string and print max item
 print(max(len(i) for i in string.split()))
