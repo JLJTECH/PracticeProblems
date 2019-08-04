@@ -48,6 +48,8 @@ print(f"{x} {w}")
 	#Example edabit solution to list all indexes of a specified value
 	def get_indicies(lst, el):
 	[i for i in range(len(lst)) if lst[i] == el]
+	#Only return the integers in a list
+	[x for x in l if type(x) == int]
 
 #Collapse multiple inputs into one
 	#from this
