@@ -44,7 +44,10 @@ print(f"{x} {w}")
 	#example CW solution used to reverse all words >= 5 letters and print out the modified sentence
 	[word[::-1] if len(word) >= 5 else word for word in words]
 	#Example CW solution to create a dictionary of letters and their frequency of occurrence in a string
-	{i : message.count(i) for i in set(message)} 
+	{i : message.count(i) for i in set(message)}
+	#Example edabit solution to list all indexes of a specified value
+	def get_indicies(lst, el):
+	[i for i in range(len(lst)) if lst[i] == el]
 
 #Collapse multiple inputs into one
 	#from this
