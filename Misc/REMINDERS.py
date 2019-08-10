@@ -1,7 +1,10 @@
 #Python reminders
 
-# Collapse the list
+# Collapse the list for output
 ''.join(list)
+
+#Flatten list of lists
+flat_list = [item for subitem in lists for item in subitem]
 
 #Exammple for checking list for single digit (string)
 def checker(string):
@@ -50,6 +53,8 @@ print(f"{x} {w}")
 	[i for i in range(len(lst)) if lst[i] == el]
 	#Only return the integers in a list
 	[x for x in l if type(x) == int]
+	#Flatten list of lists
+	flat_list = [item for subitem in lists for item in subitem]
 
 #Collapse multiple inputs into one
 	#from this
