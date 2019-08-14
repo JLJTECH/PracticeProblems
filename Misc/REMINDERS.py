@@ -22,7 +22,9 @@ min(x) for smallest
 [a,b,c,d,e].count(item) 
 
 #put anything in square brackets to search list index
-a[0] 
+a[0]
+#reverse list of ints by converting to string and list reversing
+str(num)[::-1]
 
 #Strange list rotation
 def rotate_left3(nums):
