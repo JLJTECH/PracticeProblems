@@ -40,6 +40,10 @@ if someting:
 else:
 	return (item > 1 and item <= 5)
 
+#One line conditionals
+	#get item index from lst, not there, return -1
+return lst.index(item) if item in lst else -1
+
 #Use F strings
 x = "hello"
 w = "world"
