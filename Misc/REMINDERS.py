@@ -72,6 +72,10 @@ print(f"{x} {w}")
 def remove_exclamation_marks(s):
     return s.replace('!', '')
 
+#remove duplicate words
+def remove_duplicate_words(s):
+    return ' '.join(sorted(set(s.split()), key = s.index))
+
 #Quick Lambda implementation on multiple args - with f"string"
 def newvibe(a,b,c):
 	var1 = lambda x: (x * 5)
