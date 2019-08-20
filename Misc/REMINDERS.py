@@ -14,6 +14,10 @@ checker([2, 55, 60, 97, 86, 3, 4, 6, 6])
 #Scan list for longest string and print max item
 print(max(len(i) for i in string.split()))
 
+#search for highest index of substring
+string.rindex(substring) -- If not found, raises exception
+string.rfind(substring) -- If not found, returns -1
+
 #Dont forget min and max
 max(x) for largest
 min(x) for smallest
