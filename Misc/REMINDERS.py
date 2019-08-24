@@ -61,6 +61,8 @@ print(f"{x} {w}")
 	#Example edabit solution to list all indexes of a specified value
 	def get_indicies(lst, el):
 	[i for i in range(len(lst)) if lst[i] == el]
+	#Edabit solution for odd occurrence of item in list
+	[i for i in lst if lst.count(i) % 2 > 0]
 	#Only return the integers in a list
 	[x for x in l if type(x) == int]
 	#Flatten list of lists
