@@ -23,7 +23,9 @@ max(x) for largest
 min(x) for smallest
 
 #Count occurrences of item in list
-[a,b,c,d,e].count(item) 
+[a,b,c,d,e].count(item)
+#Count occurrences of list 1 items in list 2
+value =  len([i for i in list2 if i in list1 ])
 
 #put anything in square brackets to search list index
 a[0]
