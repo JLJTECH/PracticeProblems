@@ -55,6 +55,9 @@ x = "hello"
 w = "world"
 print(f"{x} {w}")
 
+#Use Swapcase to flip lowercase and uppercase
+string.swapcase()
+
 #List comprehensions
 	#example CW solution used to reverse all words >= 5 letters and print out the modified sentence
 	[word[::-1] if len(word) >= 5 else word for word in words]
