@@ -59,11 +59,11 @@ print(f"{x} {w}")
 string.swapcase()
 
 #List comprehensions
-	#example CW solution used to reverse all words >= 5 letters and print out the modified sentence
+	#Reverse all words >= 5 letters and print out the modified sentence
 	[word[::-1] if len(word) >= 5 else word for word in words]
-	#Example CW solution to create a dictionary of letters and their frequency of occurrence in a string
+	#Create a dictionary of letters and their frequency of occurrence in a string
 	{i : message.count(i) for i in set(message)}
-	#Example edabit solution to list all indexes of a specified value
+	#List all indexes of a specified value
 	def get_indicies(lst, el):
 	[i for i in range(len(lst)) if lst[i] == el]
 	#Edabit solution for odd occurrence of item in list
@@ -72,6 +72,8 @@ string.swapcase()
 	[x for x in l if type(x) == int]
 	#Flatten list of lists
 	flat_list = [item for subitem in lists for item in subitem]
+	#Split int into list of digits
+	split_number = [int(d) for d in str(n)]
 
 #Collapse multiple inputs into one
 	#from this
