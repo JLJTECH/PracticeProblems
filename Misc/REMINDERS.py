@@ -74,6 +74,8 @@ string.swapcase()
 	flat_list = [item for subitem in lists for item in subitem]
 	#Split int into list of digits
 	split_number = [int(d) for d in str(n)]
+	#Dictionary values for item
+	value = [str(dictionary[i]) for i in string]
 
 #Collapse multiple inputs into one
 	#from this
