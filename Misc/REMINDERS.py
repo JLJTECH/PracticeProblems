@@ -77,6 +77,10 @@ string.swapcase()
 	#Dictionary values for item
 	value = [str(dictionary[i]) for i in string]
 
+#Letter replacements/translations
+def correct(string):
+    return string.translate(str.maketrans("501", "SOI"))
+	
 #Collapse multiple inputs into one
 	#from this
 	def predict_age(age_1, age_2, age_3, age_4, age_5, age_6, age_7, age_8):
