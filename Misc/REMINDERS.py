@@ -76,6 +76,8 @@ string.swapcase()
 	split_number = [int(d) for d in str(n)]
 	#Dictionary values for item
 	value = [str(dictionary[i]) for i in string]
+	#list character index from left to right, right to left
+	[mylist.index(char), mylist.rindex(char)]
 
 #Letter replacements/translations
 def correct(string):
