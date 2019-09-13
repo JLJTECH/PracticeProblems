@@ -14,7 +14,7 @@ checker([2, 55, 60, 97, 86, 3, 4, 6, 6])
 #Scan list for longest string and print max item
 print(max(len(i) for i in string.split()))
 
-#search for highest index of substring
+#Search for highest index of substring
 string.rindex(substring) -- If not found, raises exception
 string.rfind(substring) -- If not found, returns -1
 
@@ -27,9 +27,9 @@ min(x) for smallest
 #Count occurrences of list 1 items in list 2
 value =  len([i for i in list2 if i in list1 ])
 
-#put anything in square brackets to search list index
+#Put anything in square brackets to search list index
 a[0]
-#reverse list of ints by converting to string and list reversing
+#Reverse list of ints by converting to string and list reversing
 str(num)[::-1]
 
 #Strange list rotation
@@ -93,7 +93,7 @@ def correct(string):
 def remove_exclamation_marks(s):
     return s.replace('!', '')
 
-#remove duplicate words
+#Remove duplicate words, keep index position
 def remove_duplicate_words(s):
     return ' '.join(sorted(set(s.split()), key = s.index))
 
