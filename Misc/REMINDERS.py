@@ -24,6 +24,8 @@ min(x) for smallest
 
 #Count occurrences of item in list
 [a,b,c,d,e].count(item)
+sum([x.count(letter) for x in lst])
+
 #Count occurrences of list 1 items in list 2
 value =  len([i for i in list2 if i in list1 ])
 
