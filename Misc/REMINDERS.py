@@ -26,6 +26,11 @@ min(x) for smallest
 [a,b,c,d,e].count(item)
 sum([x.count(letter) for x in lst])
 
+#Count Sublists in list
+return str(lst).count('[') - 1
+return sum(1 for i in lst if type(i)==list)
+return sum(isinstance(i, list) for i in lst)
+
 #Count occurrences of list 1 items in list 2
 value =  len([i for i in list2 if i in list1 ])
 
