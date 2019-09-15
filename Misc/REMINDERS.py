@@ -11,6 +11,10 @@ def checker(string):
 	print("Boom!" if "7" in str(string) else "there is no 7 in the list")
 checker([2, 55, 60, 97, 86, 3, 4, 6, 6])
 
+#Check list for letters or numbers
+letters = ''.join(x for x in item if x.isalpha())
+digits = ''.join(x for x in item if x.isnumeric())
+
 #Scan list for longest string and print max item
 print(max(len(i) for i in string.split()))
 
