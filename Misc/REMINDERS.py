@@ -93,6 +93,10 @@ string.swapcase()
 #Letter replacements/translations
 def correct(string):
     return string.translate(str.maketrans("501", "SOI"))
+
+#Simple hard coded cipher
+def move(word):
+	return ''.join(chr(ord(i) + 1) for i in word)
 	
 #Collapse multiple inputs into one
 	#from this
