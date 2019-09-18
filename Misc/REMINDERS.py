@@ -2,6 +2,8 @@
 
 # Collapse the list for output
 ''.join(list)
+#Collapse and convert items to string
+''.join(map(str, lst))
 
 #Flatten list of lists
 flat_list = [item for subitem in lists for item in subitem]
