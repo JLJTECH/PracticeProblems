@@ -96,6 +96,12 @@ string.swapcase()
 def correct(string):
     return string.translate(str.maketrans("501", "SOI"))
 
+#Dictionary reminders
+dictionary_name.values() - list all values
+keys() - list all keys
+get() - access value for key
+use Dict[1] or Dict[name] - access item via key
+
 #Simple hard coded cipher
 def move(word):
 	return ''.join(chr(ord(i) + 1) for i in word)
