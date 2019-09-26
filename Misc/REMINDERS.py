@@ -68,6 +68,23 @@ x = "hello"
 w = "world"
 print(f"{x} {w}")
 
+#Aligning text
+print('{:<10}'.format('X')) # left align
+X         
+print('{:>10}'.format('X')) # right align
+         X
+print('{:^10}'.format('X')) # center
+    X     
+print('{:?^10}'.format('X')) # add a fill character
+????X?????
+
+#Using commas as a delimiter
+print('{:,}'.format(2783727282727)) 
+2,783,727,282,727
+
+print('{:.2%}'.format(90.60/100))   
+90.60%
+
 #Use Swapcase to flip lowercase and uppercase
 string.swapcase()
 
