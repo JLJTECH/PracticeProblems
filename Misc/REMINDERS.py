@@ -144,3 +144,6 @@ def newvibe(a,b,c):
 
 #Alternative method to return binary of a number
 variable = format(number, "b")
+
+#Boolean type checking
+return "boolean expexted" if not isinstance(arg, bool) #Print Boolean expected if arg is not boolean
