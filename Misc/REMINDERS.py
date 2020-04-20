@@ -141,3 +141,6 @@ def remove_duplicate_words(s):
 def newvibe(a,b,c):
 	var1 = lambda x: (x * 5)
 	print(f"This is a: {var1(a)}, This is b: {var1(b)}, This is c: {var1(c)}")
+
+#Alternative method to return binary of a number
+variable = format(number, "b")
