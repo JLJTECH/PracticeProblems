@@ -147,3 +147,6 @@ variable = format(number, "b")
 
 #Boolean type checking
 return "boolean expexted" if not isinstance(arg, bool) #Print Boolean expected if arg is not boolean
+
+#Quick counter implementation - Sum vowels in string.
+val = sum([1 for x in txt.lower() if x in 'aeiou'])
