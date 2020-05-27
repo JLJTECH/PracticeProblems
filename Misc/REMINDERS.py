@@ -133,6 +133,10 @@ def move(word):
 def remove_exclamation_marks(s):
     return s.replace('!', '')
 
+#Replace Vowels with "!"
+def replace_exclamation(s):
+    return ''.join('!' if c in 'aeiouAEIOU' else c for c in s)
+
 #Remove duplicate words, keep index position
 def remove_duplicate_words(s):
     return ' '.join(sorted(set(s.split()), key = s.index))
