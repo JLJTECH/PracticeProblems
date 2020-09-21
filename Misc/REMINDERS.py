@@ -32,6 +32,11 @@ min(x) for smallest
 [a,b,c,d,e].count(item)
 sum([x.count(letter) for x in lst])
 
+#Use Regex to count all lowercase letters in given string.
+import re
+def lowercase_count(string):
+    return len(re.findall('[a-z]',string))
+
 #Count Sublists in list
 return str(lst).count('[') - 1
 return sum(1 for i in lst if type(i)==list)
