@@ -94,6 +94,8 @@ print('{:.2%}'.format(90.60/100))
 string.swapcase()
 
 #List comprehensions
+	#Remove integers from string
+	return ''.join(x for x in s if not x.isdigit())
 	#Reverse all words >= 5 letters and print out the modified sentence
 	[word[::-1] if len(word) >= 5 else word for word in words]
 	#Create a dictionary of letters and their frequency of occurrence in a string
